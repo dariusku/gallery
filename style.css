@@ -7,4 +7,23 @@ nav{
     color:#131D26;
     border-bottom: #6C7981 solid 2px;
     width: 15%;
-}w
+}
+img 
+{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit:cover;
+    
+}
+li{
+    list-style: none;
+    height: 40vh;
+    flex-grow:1;
+    padding: 0.5rem ;
+    /* list-style: none; nuima taskelius nuo saraso */
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
