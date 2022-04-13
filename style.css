@@ -1,0 +1,46 @@
+html{font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    margin: 30px 20px 20px 30px;
+ }
+ .containerhero{display: flex;
+}
+.containerherotext{ margin: 20px 0;
+    width: 274px;
+
+}
+.containerherotext h1{
+    line-height:0.98em;
+    font-weight: 900;
+    font-size: 48px;
+    margin-top: 0.5em;}
+ .containerherotext h3{
+     text-transform: uppercase;
+     color:#FF3998;
+     font-size: 16px;
+     margin-top:45px ;
+ }
+ .containerherotext p{
+    color: #555555;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;  
+    line-height: 1.6; 
+     }
+ .graphic img{
+position: absolute;
+width: 400.69px;
+height:400px;
+left: 220px;
+top:40px; 
+}
+ button {
+     border:3px solid orangered;
+     border-radius: 45px;
+     width: 188px;
+     height: 75px;
+     font-family: inter;
+     font-weight: 700;   
+ }
