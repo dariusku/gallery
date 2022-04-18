@@ -6,42 +6,53 @@ html{font-family: Inter;
     
  }
 
- header, body .containerhero {margin: 30px 20px 20px 30px;}
- .containerhero{display: flex;
-    width:100%;
-    
+ header, body .containerhero,.footer ,.containerfooter
+ {
+     margin: 30px 20px 20px 30px;
 }
+ .containerhero {
+     display: flex;
+    width:100%;
+}
+
 .containerherotext{ margin: 20px 0;
     width: 274px;
-
 }
-.containerherotext h1{
+
+.containerherotext h1
+{
     line-height:0.98em;
     font-weight: 900;
     font-size: 48px;
-    margin-top: 0.5em;}
- .containerherotext h3{
+    margin-top: 0.5em;
+}
+
+ .containerherotext h3
+ {
      text-transform: uppercase;
      color:#FF3998;
      font-size: 16px;
      margin-top:45px;
      letter-spacing: 2px;
  }
- .containerherotext p{
+ .containerherotext p
+ {
     color: #555555;
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;  
     line-height: 1.6; 
-     }
- .graphic img{
+}
+ .graphic img
+ {
 position: absolute;
 width: 400.69px;
 height:400px;
 left: 220px;
 top:40px; 
 }
- button {
+ button 
+ {
      border:3px solid orangered;
      border-radius: 45px;
      width: 188px;
@@ -49,7 +60,8 @@ top:40px;
      font-family: inter;
      font-weight: 700;   
  }
- .containerupsell{
+ .containerupsell
+ {
     background-image: url(assets/background.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -59,21 +71,21 @@ top:40px;
     display: flex;
     align-items: center;
  }
- .upselltext, .containershowcase{
+ .upselltext, .containershowcase
+ {
      margin-left:30px;
      }
-.upselltext h2{
+.upselltext h2
+{
     font-size: 40px;
     line-height: 1.6;
     font-weight: 500;
     margin-bottom: 0;
     padding-bottom: 0;
-    
-    
-   
 
 }
-.upselltext p{
+.upselltext p
+{
     font-size: 20px;
     font-weight: 400;
     line-height: 1.6;
@@ -81,8 +93,52 @@ top:40px;
     padding-top: 0;
     
 }
-ul{display: flex;
-    flex-direction: row;
+.upsellimg{
+width: 206px;
+height:467px;
+}
+.containerfootersocial{
+
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  
+
+}
+.h3footer{
+    font-weight: 500;
+    color: #555555;
+
+
+}
+.containerfootertext h1
+{
+    line-height:0.98em;
+    font-weight: 900;
+    font-size: 48px;
+    margin-top: 0.5em;}
+
+
+ .containerfootertext p
+ {
+    color: #555555;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;  
+    line-height: 1.6; 
+}
+.flexupsellimg{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.containerpress{
+padding-top: 30px;
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     list-style-type: none;
 }
@@ -101,30 +157,36 @@ ul{display: flex;
     text-align: left;
 
 }
-span{
+span
+{
     text-decoration: underline;
 }
-.flexshowcaseout{
+.flexshowcaseout
+{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
-.flexshowcaseinner{
+.flexshowcaseinner
+{
     width:290px ;
     display: flex;
     align-content: center;
     justify-content: space-around;
       
 }
-.showcaseicons{
+.showcaseicons
+{
     margin-right:40px; }
 }
-.flexshowcaseinner h3{
+.flexshowcaseinner h3
+{
    font-weight: 600;
    font-size: 20px;
  
 }
-.box{display: flex;
+.box
+{display: flex;
     align-items: center;
 }
 
