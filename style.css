@@ -3,20 +3,56 @@ html{font-family: Inter;
     font-weight: 700;
     line-height: 19px;
     text-align: left;
+    background-color: white;
     
  }
+body{border-radius: 20px;
+padding: 20px 0;
+background-color:white;
+;}
 
- header, body .containerhero,.footer ,.containerfooter
+header{
+    margin-left:30px;
+}
+body .containerhero,footer ,.containerfooter
  {
      margin: 30px 20px 20px 30px;
 }
- .containerhero {
-     display: flex;
-    width:100%;
+.containerfooter
+ {
+     margin: 0px 20px 0px 30px;
+}
+.br{height:4px;
+background-color: #EEEEEE;}
+a{text-decoration: none;
+    color: #555555;
+}
+#graphic{
+    position:absolute;
+    left:327px;
+    top:110px;
+    height:278px;
+    
+   
+}
+.burger{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+.burger ul{
+    padding:0;
+}
+.pink
+{color: #FF3998;}
+ .flexheroimg {
+       display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
 }
 
-.containerherotext{ margin: 20px 0;
-    width: 274px;
+.containerherotext{ margin-left: 0;
+    padding-bottom: 50px;
 }
 
 .containerherotext h1
@@ -24,18 +60,17 @@ html{font-family: Inter;
     line-height:0.98em;
     font-weight: 900;
     font-size: 48px;
-    margin-top: 0.5em;
+    width:274px
 }
 
- .containerherotext h3
+ h3
  {
      text-transform: uppercase;
-     color:#FF3998;
+     color:#555555;
      font-size: 16px;
-     margin-top:45px;
-     letter-spacing: 2px;
+     letter-spacing: 0.6px;
  }
- .containerherotext p
+ p,.containerherotext p
  {
     color: #555555;
     font-family: Inter;
@@ -45,11 +80,8 @@ html{font-family: Inter;
 }
  .graphic img
  {
-position: absolute;
 width: 400.69px;
 height:400px;
-left: 220px;
-top:40px; 
 }
  button 
  {
@@ -70,6 +102,7 @@ top:40px;
     background-size: cover;
     display: flex;
     align-items: center;
+    padding-top: 40px;
  }
  .upselltext, .containershowcase
  {
@@ -78,10 +111,11 @@ top:40px;
 .upselltext h2
 {
     font-size: 40px;
-    line-height: 1.6;
-    font-weight: 500;
+    line-height: 1.2;
+    font-weight: 600;
     margin-bottom: 0;
     padding-bottom: 0;
+
 
 }
 .upselltext p
@@ -91,6 +125,7 @@ top:40px;
     line-height: 1.6;
     margin-top: 0;
     padding-top: 0;
+    color:black;
     
 }
 .upsellimg{
@@ -108,8 +143,13 @@ height:467px;
 .h3footer{
     font-weight: 500;
     color: #555555;
+    letter-spacing: 0.5px;
+    padding: 20px 0;
 
 
+}
+.containerfootertext{
+    padding-bottom: 30px;
 }
 .containerfootertext h1
 {
@@ -166,6 +206,7 @@ span
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    padding-bottom: 80px;
 }
 .flexshowcaseinner
 {
@@ -177,13 +218,13 @@ span
 }
 .showcaseicons
 {
-    margin-right:40px; }
+    margin-right:40px;
+}
 }
 .flexshowcaseinner h3
 {
    font-weight: 600;
    font-size: 20px;
- 
 }
 .box
 {display: flex;
@@ -230,3 +271,117 @@ span
     background-color:#eeeeee;
     
 } 
+.socialfooter{
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+.socialfooter li img {
+    padding-right: 15px;
+}
+.footerflex4col{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+    
+    
+
+}
+h4{
+    font-weight: 700;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #555555;
+}
+.flexcol{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 80px;  
+}
+.flexcol li{
+    margin-top: 15px;
+    font-weight: 400;
+    color: #555555;
+    font-size: 20px;
+}
+#lighter{
+    color: #999999;
+    ;
+}
+@media (min-width: 428px){
+ .flexheader{
+display:flex;
+flex-direction: row;
+justify-content: space-between;}
+.burger{
+    font-weight: 400;
+}
+.burger a{padding: 40px 50px 0px 0px;}
+#pink{
+    color:#FF3998
+}
+.containerherotext{
+    width: 100%;
+}
+#graphic{
+    position:absolute;
+    left:921px;
+    top:160px;
+    height: 357px;
+    
+   
+}
+.containerupsell
+ {
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    margin:0 auto;
+    border-radius: 15px;
+ }
+ .br{height:4px;
+    background-color: #EEEEEE;
+  width:96%;
+  justify-content: center;
+ margin-left:30px;
+}
+.flexfooter{
+    display: flex;
+    justify-content:space-between;
+}
+.containerfootertext{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+}
+.containerfooterbottomtext{
+    padding-right: 300px;
+}
+.flexp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerpress{ width: 96%;
+margin-left: 30px;
+margin-top: 100px;
+}
+.containerpress ul{
+    padding:0
+}
+.flexupsellimg{
+   justify-content: space-between;
+}
+.upsellimg{
+    padding-right: 260px;
+}
+}
+

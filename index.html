@@ -14,24 +14,41 @@
         rel="stylesheet">
     <title>TESTAS</title>
 </head>
+
 <header>
-    <img src="assets/logo.svg" alt="Logo">
-    <img>
+    <div class="flexheader">
+    <div>
+        <img src="assets/logo.svg" alt="Logo">
+        <img>
+    </div>
+    <div class="burger">
+        <ul class="linkflex">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Launch</a></li>
+            <li><a id="pink" href="#">Sign Up</a></li>
+        </ul>
+    </div>
+</div>
 </header>
 
 <body>
     <!-- hero konteineris pradzia -->
-    <div class="containerhero">
-        <div class="containerherotext">
-            <h3>Launching soon</h3>
-            <h1>An NFT like no other</h1>
-            <p>Don’t miss out on the <br>release of our new NFT. Sign <br> up below to receive updates <br> when we go
-                live.</p>
-            <button>Sign Up</button>
-        </div>
-        <div class="graphic">
-            <img src="assets/graphic.svg" alt="hero">
 
+    <div class="containerhero">
+        <div class="flexheroimg">
+            <div class="containerherotext">
+                <h3 id="pink">Launching soon</h3>
+                <h1>An NFT like no other</h1>
+                <p>Don’t miss out on the release of our new NFT. Sign up below to receive updates <br> when we
+                    go
+                    live.</p>
+                <button>Sign Up</button>
+            </div>
+            <div class="upsellimg">
+                <img id="graphic" src="assets/graphic.png" alt="hero">
+
+            </div>
         </div>
     </div>
     <!-- hero konteineris pabaiga -->
@@ -153,14 +170,14 @@
             </div>
         </div>
     </div>
-    <br>
+    <div class="br"></div>
     <!-- konteriner showcase pabaiga -->
     <div class="containerfooter">
         <div class="flexupsellimg">
             <div class="containerfootertext">
-                <h3>Launching soon</h3>
+                <h3 id="pink">Launching soon</h3>
                 <h1>An NFT like no other</h1>
-                <p>Don’t miss out on the <br>release of our new NFT. Sign <br> up below to receive updates </p>
+                <p>Don’t miss out on the release of our new NFT. Sign up below to receive updates. </p>
                 <button>Sign Up</button>
             </div>
             <div class="upsellimg">
@@ -169,18 +186,66 @@
             </div>
         </div>
     </div>
+    <div class="br"></div>
     <!-- konteirnerio footerupsell pradzoia -->
     <div class="containerfooterupsell">
 
     </div>
     <!-- konteinerio footerupsell pabaiga -->
     <!-- footer pradzia -->
-    <footer >
-        <div class="containerfootertext">
-        <img src="assets/logo.svg" alt="Logo">
-        <img>
-   
-        <h3 class="h3footer">Exclusive NFT Collection</h3> 
+    <footer>
+        <div class="flexfooter">
+        <div class="containerfooterbottomtext">
+            <img src="assets/logo.svg" alt="Logo">
+            <img>
+
+            <h3 class="h3footer">Exclusive NFT Collection</h3>
+            <div>
+                <ul class="socialfooter">
+                    <li><img src="assets/companies/facebook.png" alt="facobook"></li>
+                    <li><img src="assets/companies/twitter.png" alt="twitter"></li>
+                    <li><img src="assets/companies/instagram.png" alt="instagram"></li>
+                    <li><img src="assets/companies/tiktok.png" alt="tiktok"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerflex4col">
+            <div>
+                <h4>About</h4>
+                <ul class="flexcol">
+                    <li>About</li>
+                    <li>Terms</li>
+                    <li>Legel</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>NFT</h4>
+                <ul class="flexcol">
+                    <li>OpenSea</li>
+                    <li>Maker</li>
+                    <li>Learn</li>
+                </ul>
+            </div>
+            <div>
+                <h4>CONTACT</h4>
+                <ul class="flexcol">
+                    <li>Press</li>
+                    <li>Support</li>
+                </ul>
+            </div>
+            <div>
+                <h4>SOCIAL</h4>
+                <ul class="flexcol">
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        <div class="flexp">
+        <p id="lighter">&copy;Copyright 2022 NFTlanding</p>
+        <p id="lighter">Launging August 2022</p>
     </div>
     </footer>
     <!-- footerpabaiga -->
